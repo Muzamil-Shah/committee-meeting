@@ -200,7 +200,7 @@ const AppRouter = () => {
   // "homepage": "/bpaas",
 
   return (
-    <HashRouter basename="/meeting">
+    <HashRouter>
       <Routes>{renderRoutes(routes)}</Routes>
     </HashRouter>
   );
