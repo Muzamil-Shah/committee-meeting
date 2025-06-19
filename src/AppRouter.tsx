@@ -153,7 +153,7 @@ const AppRouter = () => {
           allowedRoles: [...Object.values(userRole)],
         },
         {
-          path: "committee-meetings",
+          path: "committee-meeting/meetings",
           element: <Meetings />,
           isPrivate: false,
           allowedRoles: [...Object.values(userRole)],
